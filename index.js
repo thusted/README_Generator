@@ -40,7 +40,7 @@ const questions = [
         type: "input",
         name: "tests",
         message: "Please describe any tests for your project:"
-    }
+    },
     {
         type: "input",
         name: "github",
