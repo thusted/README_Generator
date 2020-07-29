@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/thusted/README_Generator/issues"
   },
-  "homepage": "https://github.com/thusted/README_Generator#readme"
+  "homepage": "https://github.com/thusted/README_Generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3"
+  }
 }
