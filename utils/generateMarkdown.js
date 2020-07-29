@@ -30,7 +30,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-For any further questions, feel free to contact me at ${data.github}@github.com or ${data.email}.
+For any further questions, feel free to contact me on GitHub at github.com/${data.github} or send me an email at: ${data.email}.
 `;
 }
 

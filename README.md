@@ -1,7 +1,7 @@
-# ndjkfcnsdjks
+# jskshjsk
 
 ## Description
-cdbhjkbsahdjs
+djksajkls
 
 ## Table of Contents
 * [Description](#Description)
@@ -13,19 +13,19 @@ cdbhjkbsahdjs
 * [Questions](#Questions)
 
 ## Installation
-asbdjsakdbsajk
+sdjkasldjaskl
 
 ## Usage
-dbsajksbak
+dsjkaldjskla
 
 ## Licenses
 MIT License
 
 ## Contributing
-bsdzjsakbas
+dbjsakhsakj
 
 ## Tests
-dbsajkdsbjksa
+sndklajkal
 
 ## Questions
-For any further questions, feel free to contact me at thusted@github.com or tiana.husted@gmail.com.
+For any further questions, feel free to contact me on GitHub at github.com/thusted or send me an email at: tiana.husted@gmail.com.
