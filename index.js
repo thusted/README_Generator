@@ -1,6 +1,8 @@
 //dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
+
+//importing generateMarkdown file
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
@@ -55,7 +57,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data);
+    fs.writeFileSync(fileName, data);
 }
 
 // function to initialize program
