@@ -1,6 +1,7 @@
+//dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("util");
+const generateMarkdown = requre("./utils/generateMarkdown.js");
 
 // array of questions for user
 const questions = [
@@ -12,28 +13,34 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Please provide a description of your project."
+        message: "Please provide a description of your project:"
     },
     {
         type: "input",
         name: "installation",
-        message: "Please provide any installation instructions for your project."
+        message: "Please provide any installation instructions for your project:"
     },
     {
         type: "input",
         name: "usage",
-        message: "Please provide any usage information."
+        message: "Please provide any usage information:"
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Please select a license you would like to include:",
+        choices: ["None", "Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"]
     },
     {
         type: "input",
-        name: "licenseName",
-        message: "Please list the names of any licenses you would like to include."
+        name: "contributing",
+        message: "Please describe any contributions that were made:"
     },
     {
         type: "input",
-        name: "licenseURL",
-        message: "Please list the URL of the licenses you would like to include."
-    },
+        name: "tests",
+        message: "Please describe any tests for your project:"
+    }
     {
         type: "input",
         name: "github",
