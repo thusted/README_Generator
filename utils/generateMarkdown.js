@@ -21,7 +21,7 @@ ${data.installation}
 ${data.usage}
 
 ## Licenses
-This application is covered under ${data.license} license.
+This application is covered under ${data.license}.
 
 ## Contributing
 ${data.contributing}
