@@ -31,3 +31,6 @@ To test functionality, simply run node index.js in terminal.
 
 ## Questions
 For any further questions, feel free to contact me on GitHub at http://github.com/thusted or send me an email at: tiana.husted@gmail.com.
+
+## Demo of Application
+https://drive.google.com/file/d/1Ebuf_PWSIll5nq2EnpPSE3uUUs6BLPNs/view 
