@@ -21,7 +21,7 @@ Fork the GitHub repository and copy to local machine. Upon opening index.js in t
 To use, just be sure to install inquirer and fs dependencies.
 
 ## Licenses
-This application is covered under MIT License license.
+This application is covered under MIT License.
 
 ## Contributing
 I contributed to this project.
