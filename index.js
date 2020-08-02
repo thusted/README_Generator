@@ -58,7 +58,7 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, data);
-}
+};
 
 // function to initialize program
 function init() {
@@ -66,8 +66,8 @@ function init() {
         const data = generateMarkdown(answers);
         writeToFile("README.md", data);
         console.log("Successfully wrote to file!");
-    })
-}
+    });
+};
 
 // function call to initialize program
 init();

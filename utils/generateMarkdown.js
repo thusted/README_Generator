@@ -21,7 +21,7 @@ ${data.installation}
 ${data.usage}
 
 ## Licenses
-${data.license}
+This application is covered under ${data.license} license.
 
 ## Contributing
 ${data.contributing}
@@ -30,7 +30,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-For any further questions, feel free to contact me on GitHub at github.com/${data.github} or send me an email at: ${data.email}.
+For any further questions, feel free to contact me on GitHub at http://github.com/${data.github} or send me an email at: ${data.email}.
 `;
 }
 
