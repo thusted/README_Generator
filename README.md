@@ -15,7 +15,7 @@ This is a command-line application that dynamically generates a professional REA
 * [Questions](#Questions)
 
 ## Installation
-Fork the GitHub repository and copy to local machine. Upon opening index.js in terminal, first run npm i inquirer and npm i fs commands, then run node index.js to begin application
+Clone the GitHub repository and copy to local machine. Upon opening index.js in terminal, first run npm i inquirer and npm i fs commands, then run node index.js to begin application
 
 ## Usage
 To use, just be sure to install inquirer and fs dependencies.
